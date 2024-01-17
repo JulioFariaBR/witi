@@ -1,0 +1,210 @@
+.corpo {
+  background: url(../assets/fundo.png);
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: rgba(255, 255, 255, 1);
+}
+
+.cab {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  background: rgba(0, 0, 0, 0.70);
+}
+
+.cab__section {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.cab__section--img {
+  width: 16vh;
+  height: 16vh;
+  border-radius: 15px;
+}
+
+.cab__section--h1 {
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.cab__nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cab__nav--a {
+  color: rgba(255, 255, 255, 1);
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.prin-a {
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.prin__welcome {
+  display: flex;
+  width: 80%;
+  height: 60vh;
+  border-radius: 40px;
+  background: rgba(0, 0, 0, 0.70);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.prin__welcome--h1 {
+  font-size: 11vh;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px;
+}
+
+.prin__welcome--h2 {
+  font-size: 7vh;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  padding: 10px;
+}
+
+.prin-b {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.intro__sect {
+  border-radius: 40px 0px 0px 40px;
+  background: rgba(0, 0, 0, 0.70);
+  box-shadow: 0px 4px 10px 0px rgba(255, 255, 255, 0.50);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  margin-left: 30%;
+}
+
+.intro__sect--h3 {
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 10px;
+}
+
+.intro__sect--p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding: 10px;
+}
+
+.prin-c {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prin__discord {
+  display: flex;
+  border-radius: 40px;
+  background: rgba(0, 0, 0, 0.70);
+  box-shadow: 4px -4px 4px 0px rgba(255, 255, 255, 0.50) inset;
+  padding: 20px;
+}
+
+.discord__qrcode {
+  width: 325px;
+  height: 325px;
+  border-radius: 40px;
+}
+
+.discord__sect {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.discord__sect--h3 {
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 10px;
+}
+
+.discord__sect--h4 {
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 10px;
+}
+
+.discord__sect--a {
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: rgba(255, 255, 255, 1);
+  margin: 10px;
+}
+
+.rodape {
+  border-radius: 40px 40px 0px 0px;
+  background: rgba(0, 0, 0, 0.70);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.rodape__logo {
+  width: 148px;
+  height: 148px;
+  border-radius: 15px;
+}
+
+.rodape__sect--pa {
+  font-size: 6vh;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+
+.rodape__sect--pb {
+  font-size: 5vh;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+
