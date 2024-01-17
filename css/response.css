@@ -33,6 +33,7 @@
         flex-direction: column;
     }
     .prin__welcome {
+        margin-top: 15px;
         height: 80vh;
     }
 }
