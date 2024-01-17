@@ -32,4 +32,7 @@
     .rodape {
         flex-direction: column;
     }
+    .prin__welcome {
+        height: 80vh;
+    }
 }
