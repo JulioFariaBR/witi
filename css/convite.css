@@ -170,7 +170,7 @@ body {
   
   
 @media (max-width: 960px) {
-    .principal {
+    body {
         background: url(../assets/fundo-tb.png);
     }
     .prin__discord {
@@ -189,7 +189,7 @@ body {
 }
 
 @media (max-width: 430px) {
-    .principal {
+    body {
         background: url(../assets/Fundo-cel\(2\).png);
     }
     .discord__qrcode {
