@@ -190,7 +190,7 @@ body {
 
 @media (max-width: 430px) {
     body {
-        background: url(../assets/Fundo-cel\(2\).png);
+        background: url(../assets/Fundo-cel.png);
     }
     .discord__qrcode {
         display: none;
