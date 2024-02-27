@@ -1,0 +1,203 @@
+body {
+    background: url(../assets/fundo.png);
+    background-size: auto;
+    background-position:inherit;
+    background-repeat: no-repeat;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgba(255, 255, 255, 1);
+}
+
+.cab {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    background: rgba(0, 0, 0, 0.70);
+  }
+
+.cab__voltar {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.cab__title {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cab__voltar--p {
+    text-align: center;
+    font-size: 4.5vh;
+}
+
+.cab__title--h1 {
+    text-align: center;
+    font-size: 5vh;
+    font-weight: 700;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.principal__sect, .principal__duvida {
+    display: flex;
+    width: 80%;
+    padding: 20px;
+    border-radius: 40px;
+    background: rgba(0, 0, 0, 0.70);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px -4px 4px 0px rgba(255, 255, 255, 0.50) inset;
+    margin: 15vh;
+}
+
+.principal__h1, .principal__duvida--h1 {
+    font-size: 6vh;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+}
+
+.principal__sect--a {
+    font-size: 4vh;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 20px;
+    margin: 20px;
+    color: #222222;
+    background: #ffffff;
+    border: #DDDDDD 2px solid;
+    border-radius: 20px;
+}
+
+.principal__duvida--h2 {
+    font-size: 4vh;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+}
+
+.prin__discord {
+    display: flex;
+    border-radius: 40px;
+    background: rgba(0, 0, 0, 0.70);
+    box-shadow: 4px -4px 4px 0px rgba(255, 255, 255, 0.50) inset;
+    padding: 20px;
+  }
+  
+  .discord__qrcode {
+    width: 325px;
+    height: 325px;
+    border-radius: 40px;
+  }
+  
+  .discord__sect {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .discord__sect--h3 {
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 10px;
+  }
+  
+  .discord__sect--h4 {
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 10px;
+  }
+  
+  .discord__sect--a {
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: rgba(255, 255, 255, 1);
+    margin: 10px;
+  }
+  
+  .rodape {
+    border-radius: 40px 40px 0px 0px;
+    background: rgba(0, 0, 0, 0.70);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20vh;
+  }
+  
+  .rodape__logo {
+    width: 148px;
+    height: 148px;
+    border-radius: 15px;
+  }
+  
+  .rodape__sect--pa {
+    font-size: 6vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+  }
+  
+  .rodape__sect--pb {
+    font-size: 5vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+  }
+  
+  
+@media (max-width: 960px) {
+    .principal {
+        background: url(../assets/fundo-tb.png);
+    }
+    .prin__discord {
+        flex-direction: column;
+    align-items: center;
+    }
+    .cab {
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        background: rgba(0, 0, 0, 0.70);
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 430px) {
+    .principal {
+        background: url(../assets/fundo-cel.png);
+    }
+    .discord__qrcode {
+        display: none;
+    }
+    .rodape {
+        flex-direction: column;
+    }
+    .prin__welcome {
+        margin-top: 4vh;
+        height: 80vh;
+    }
+}

@@ -1,8 +1,15 @@
-const dadosRecebidos = location.search.replace(/[^0-9]/g, '')
+const dadosRecebidos = location.search.replace(/[?]/g, '')
 const titleh1 = document.querySelector('.cab__title--h1');
 const principalh1 = document.querySelector('.principal__h1');
 const principala = document.querySelector('.principal__sect--a');
+const principalb = document.querySelector('.principal__sect--b');
 
+const data = {
+    "1": {
+       "name": "Julio Cesar", 
+       "link": "https://witi.eagleapp.com.br" 
+    }
+}
 
 function titulo(dados) {
     document.title = `Convite de ${dados} - WITI - Who Is The Impostor`;
@@ -12,11 +19,10 @@ function titulo(dados) {
 
 function links(dados) {
     principala.href = dados;
+    principalb.href = dados;
 }
 
 async function request() {
-    const res = await fetch("../data/imprensus.json");
-    const data = await res.json();
     dadosSelecionados = (data[dadosRecebidos]);
     titulo(dadosSelecionados.name);
     links(dadosSelecionados.link);
