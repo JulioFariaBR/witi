@@ -31,6 +31,8 @@ body {
 .cab__voltar--p {
     text-align: center;
     font-size: 4.5vh;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .cab__title--h1 {
