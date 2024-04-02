@@ -7,23 +7,23 @@ const principalb = document.querySelector('.principal__sect--b');
 const data = {
     "1": {
        "name": "Julio Cesar", 
-       "link": "https://witi.eagleapp.com.br" 
+       "link": "https://discord.gg/5hFXSZwVzs" 
     },
     "2": {
         "name": "Lara", 
-        "link": "https://witi.eagleapp.com.br" 
+        "link": "https://discord.gg/bgyEXh5qpZ" 
      },
      "3": {
         "name": "Gustavo", 
-        "link": "https://witi.eagleapp.com.br" 
+        "link": "https://discord.com/invite/ev7ZmTMDkT" 
      },
      "4": {
         "name": "Marco", 
-        "link": "https://witi.eagleapp.com.br" 
+        "link": "https://discord.com/invite/uyKWRRqNph" 
      },
      "5": {
         "name": "Gustavo B.", 
-        "link": "https://witi.eagleapp.com.br" 
+        "link": "https://discord.com/invite/k4NxHrD6db" 
      },
      "6": {
         "name": "Nicolas", 
