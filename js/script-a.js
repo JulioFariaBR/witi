@@ -31,7 +31,7 @@ const data = {
      },
      "7": {
         "name": "Victor", 
-        "link": "https://witi.eagleapp.com.br" 
+        "link": "https://discord.com/invite/PzdcJCqZ" 
      },
 }
 
