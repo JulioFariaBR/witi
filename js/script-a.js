@@ -31,7 +31,7 @@ const data = {
      },
      "7": {
         "name": "Victor", 
-        "link": "https://discord.com/invite/PzdcJCqZ" 
+        "link": "https://discord.com/invite/8NFXGqtN" 
      },
 }
 
